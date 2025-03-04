@@ -1,4 +1,3 @@
-import React from 'react';
 import { ArrowRight } from 'lucide-react';
 
 const Propertytypes = () => {
@@ -52,7 +51,7 @@ const Propertytypes = () => {
               className="h-64 bg-cover bg-center" 
               style={{ backgroundImage: `url('${property.image}')` }}
             >
-              <div className="absolute inset-0 bg-black bg-opacity-30"></div>
+              <div className="absolute inset-0  bg-opacity-30"></div>
               <div className="absolute bottom-0 left-0 p-4 text-white">
                 <h3 className="font-bold text-lg">{property.title}</h3>
                 <p className="text-sm">{property.description}</p>

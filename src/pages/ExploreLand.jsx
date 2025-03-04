@@ -21,7 +21,7 @@ const ExploreLand = () => {
             backgroundImage: "url('https://images.unsplash.com/photo-1500382017468-9049fed747ef?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1932&q=80')" 
           }}
         >
-          <div className="absolute inset-0 bg-black bg-opacity-40"></div>
+          <div className="absolute inset-0  bg-opacity-40"></div>
           <div className="relative h-full max-w-7xl mx-auto px-4 md:px-8 flex flex-col justify-center">
             <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">
               Explore Land
@@ -94,7 +94,7 @@ const ExploreLand = () => {
                 className="h-64 bg-cover bg-center transition-transform duration-500 group-hover:scale-110" 
                 style={{ backgroundImage: `url('${category.image}')` }}
               >
-                <div className="absolute inset-0 bg-black bg-opacity-30 group-hover:bg-opacity-20 transition-opacity duration-300"></div>
+                <div className="absolute inset-0  bg-opacity-30 group-hover:bg-opacity-20 transition-opacity duration-300"></div>
                 <div className="absolute bottom-0 left-0 p-4 text-white">
                   <h3 className="font-bold text-lg">{category.name}</h3>
                   <p className="text-sm">{category.count} Listings</p>

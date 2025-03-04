@@ -105,7 +105,7 @@ const FindAgent = () => {
             backgroundImage: "url('https://images.unsplash.com/photo-1560520653-9e0e4c89eb11?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1073&q=80')"
           }}
         >
-          <div className="absolute inset-0 bg-black bg-opacity-40"></div>
+          <div className="absolute inset-0  bg-opacity-40"></div>
           <div className="relative h-full max-w-7xl mx-auto px-4 md:px-8 flex flex-col justify-center">
             <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">
               Find a Land Agent
@@ -123,7 +123,7 @@ const FindAgent = () => {
                 onChange={(e) => setSearchQuery(e.target.value)}
               />
               <div className="absolute right-3 top-1/2 transform -translate-y-1/2">
-                <Search size={20} className="text-gray-400" />
+                <Search size={20} className="text-black" />
               </div>
             </div>
           </div>
